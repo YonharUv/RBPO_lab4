@@ -188,7 +188,8 @@ QueueBasedOnArray<T>& QueueBasedOnArray<T>::operator=(std::initializer_list<int>
 }
 
 // Метод для добавления элемента в конец очереди
-bool QueueBasedOnArray<int>::Push(const int& element)
+template <typename T>
+bool QueueBasedOnArray<T>::Push(const T& element)
 {
     int* arr2 = arr;
 
@@ -218,7 +219,8 @@ bool QueueBasedOnArray<int>::Push(const int& element)
 }
 
 // Метод для удаления элемента из начала очереди
-bool QueueBasedOnArray<int>::Pop(int& element)
+template <typename T>
+bool QueueBasedOnArray<T>::Pop(T& element)
 {
     if (count == 0)
         return false;
@@ -245,8 +247,8 @@ bool QueueBasedOnArray<int>::Pop(int& element)
 }
 
 // Метод для просмотра элемента в начале очереди, не удаляя его
-
-bool QueueBasedOnArray<int>::Peek(int& element)
+template <typename T>
+bool QueueBasedOnArray<T>::Peek(T& element)
 {
     if (count > 0)
     {
