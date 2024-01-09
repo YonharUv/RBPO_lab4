@@ -1,0 +1,9 @@
+﻿  RBPO_lab4.cpp
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(95,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(95,5): message : while compiling class template member function 'QueueBasedOnArray<int>::QueueBasedOnArray(std::initializer_list<int>)'
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(270,37): message : see the first reference to 'QueueBasedOnArray<int>::QueueBasedOnArray' in 'main'
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(134,46): message : see reference to class template instantiation 'QueueBasedOnArray<int>' being compiled
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(181,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(178,1): message : while compiling class template member function 'QueueBasedOnArray<int> &QueueBasedOnArray<int>::operator =(std::initializer_list<int>)'
+C:\Users\danil\source\repos\RBPO_lab4\RBPO_lab4\RBPO_lab4.cpp(273,12): message : see the first reference to 'QueueBasedOnArray<int>::operator =' in 'main'
+  RBPO_lab4.vcxproj -> C:\Users\danil\source\repos\RBPO_lab4\x64\Debug\RBPO_lab4.exe
